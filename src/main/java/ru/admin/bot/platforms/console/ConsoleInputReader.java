@@ -1,12 +1,12 @@
-package platforms;
+package ru.admin.bot.platforms.console;
 
-import logic.Request;
+import ru.admin.bot.logic.Request;
 import java.util.Scanner;
 
-public class RealizationInputReader implements InputReader {
+public class ConsoleInputReader implements InputReader {
     private Scanner scanner;
 
-    public RealizationInputReader(){
+    public ConsoleInputReader(){
         this.scanner = new Scanner(System.in);
     }
 

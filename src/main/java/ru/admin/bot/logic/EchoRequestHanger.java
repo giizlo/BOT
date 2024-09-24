@@ -1,6 +1,6 @@
-package logic;
+package ru.admin.bot.logic;
 
-public class RealizationRequestHanger implements RequestHanger{
+public class EchoRequestHanger implements RequestHanger{
 
     public void handle(Request request, OutputWriter outputWriter) {
         Response response = new Response(request.getMessage());

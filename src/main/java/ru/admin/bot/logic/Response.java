@@ -1,4 +1,4 @@
-package logic;
+package ru.admin.bot.logic;
 
 public class Response {
     private final String message;

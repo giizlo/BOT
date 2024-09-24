@@ -1,6 +1,8 @@
-package logic;
+package ru.admin.bot.platforms.console;
 
-public class RealizationOutputWriter implements OutputWriter {
+import ru.admin.bot.logic.*;
+
+public class ConsoleOutputWriter implements OutputWriter {
 
     @Override
     public void write(Response response) {
